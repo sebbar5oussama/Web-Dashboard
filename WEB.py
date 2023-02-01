@@ -1,8 +1,9 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+
 st.set_page_config(page_title="DE-TRACA", page_icon=":bar_chart:", layout="wide")
-df = pd.read_excel(io=r'C:\\Users\PC\Desktop\Project\projet expertise.xlsm',
+df = pd.read_excel(io=r'C:\\Users\PC\Desktop\projet expertise.xlsm',
                 engine='openpyxl',
                 sheet_name='Sortie')
 df_11 = pd.read_excel(io=r'C:\\Users\PC\Desktop\projet expertise.xlsm',
